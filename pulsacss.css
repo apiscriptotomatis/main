@@ -1,0 +1,149 @@
+  body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: aliceblue;
+      user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      padding: 0;
+      margin: 0;
+      animation: fade-in 2s linear;
+    }
+
+    .header {
+      background: var(--main);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      z-index: 0;
+      border-radius: 0px 0px 35px 35px;
+    }
+
+    .pad {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      padding: 10px;
+      z-index: 11;
+    }
+
+    .box {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    }
+
+    .name-page img {
+      width: 35px;
+      margin-right: 10px;
+    }
+
+    .name-page h5 {
+      font-size: 15px;
+      margin: 0px;
+    }
+
+    .pos {
+      position: relative;
+    }
+
+    .pos p {
+      position: absolute;
+      top: -8px;
+      left: 10px;
+      background: white;
+      padding-left: 4px;
+      padding-right: 4px;
+      font-size: 11px;
+    }
+
+    #nomor {
+      width: 100%;
+      border: 2px solid #f1f1f1;
+      padding: 8px;
+      outline: none;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    #nomor:hover,
+    #nomor:focus {
+      border: 2px solid var(--main);
+    }
+
+    .input_konten img {
+      width: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .product {
+      background: white !important;
+      display: flex;
+      width: 100% !important;
+      align-items: center;
+      text-align: left;
+      outline: none;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 8px !important;
+      border: none !important;
+      margin-left: 0px !important;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    }
+
+    .product h5 {
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    .product p {
+      font-size: 13px;
+      font-weight: 500;
+      margin: 0px;
+    }
+
+    section {
+      display: none;
+    }
+
+    .icon-op {
+      width: 40px;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+    .offcanvas{
+     height: auto !important;
+    }
+    .dataKlik p{
+     font-size: 14px;
+     margin: 0px;
+     margin-top: 5px;
+    }
+    .text-start,.text-end{
+     width: 100%;
+    }
+    .cleaning{
+     background: #ffad00;
+     color: white;
+     font-size: 14px;
+     padding: 9px;
+     border: none;
+     border-radius: 5px;
+     width: 100%;
+    }
+    .postdata{
+     background: var(--main);
+     width: 100%;
+     color: white;
+     font-size: 14px;
+     padding: 9px;
+     border: none;
+     border-radius: 5px;
+    }
